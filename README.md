@@ -9,3 +9,16 @@ python3 -u main.py --train=False --train_iterations=47000 --num_classes=10 --bat
 
 ### Requirements ###
 tensorflow >= 1.8.0
+
+
+
+
+@inproceedings{qin2023training,
+  title={Training meta-surrogate model for transferable adversarial attack},
+  author={Qin, Yunxiao and Xiong, Yuanhao and Yi, Jinfeng and Hsieh, Cho-Jui},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={37},
+  number={8},
+  pages={9516--9524},
+  year={2023}
+}
