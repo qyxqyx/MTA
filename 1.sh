@@ -1,0 +1,2 @@
+﻿CUDA_VISIBLE_DEVICES=0 python3 -u main.py --train=True --train_iterations=47000 --num_classes=10 --batch_size=64 --meta_lr=0.001 --network=resnet13 --eps_c=1600 --T_train=7 --eps=15 --T_test=10 --data_aug=True > logs/MTA_PGD.log
+CUDA_VISIBLE_DEVICES=1 python3 -u main.py --train=False --train_iterations=47000 --num_classes=10 --batch_size=64 --meta_lr=0.001 --network=resnet13 --eps_c=1600 --T_train=7 --eps=15 --T_test=10 --data_aug=True > logs/MTA_PGD_test.log
